@@ -1,0 +1,64 @@
+body {
+  background-image: url("plywood.jpeg");
+  background-size: contain;
+
+}
+/************************
+    Heading styles
+*************************/
+.row {
+  background-color: white;
+  color: black;
+  /* padding: 25px; */
+}
+ /* .img {
+  padding-top: 25px;
+  margin:10px auto;
+} */
+
+.topimg {
+  padding-left: 40px;
+  padding-bottom: 25px;
+}
+
+.navbar {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: white;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.nav-link {
+  color: black;
+}
+
+.boston {
+  height: 390px;
+  width: 100%;
+  margin: auto;
+}
+
+.extra-margin-top {
+  margin-top: 50px;
+}
+
+
+/************************
+    main styles
+*************************/
+
+.bg-red {
+  height: 390px;
+  overflow-y: scroll;
+  background-color: red;
+  padding: 25px;
+}
+
+
+
+
+/************************
+    footer styles
+*************************/
