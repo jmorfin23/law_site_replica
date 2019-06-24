@@ -1,0 +1,51 @@
+/************************
+    Heading styles
+*************************/
+
+
+
+
+
+/************************
+    Main styles
+*************************/
+.set-width {
+  width: 100%;
+}
+.no-padding {
+  padding: 8px;
+}
+.color {
+  background-color: #D7CEC5;
+}
+.make-bold-2 {
+  font-weight: bold;
+  font-size: 13px;
+}
+.below-img-link-1 {
+  color: black;
+}
+.below-img-link-1:hover {
+  color: #91342f;
+  font-size: 13px;
+  text-decoration: none;
+}
+.low-font-1 {
+  font-size: 11px;
+}
+.low-font-1:hover {
+  font-size: 11px;
+  color: #91342f;
+}
+.just {
+  text-align:left;
+}
+.more-margin {
+  margin-top: 130px; 
+}
+
+
+
+/************************
+    Footer styles
+*************************/

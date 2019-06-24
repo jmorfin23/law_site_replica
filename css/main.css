@@ -1,49 +1,49 @@
 body {
-  background-image: url("plywood.jpeg");
-  background-size: contain;
-
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+.add-padding {
+  padding-right: 35px;
+  padding-left: 35px;
 }
 /************************
     Heading styles
 *************************/
 .row {
   background-color: white;
-  color: black;
+  /* color: black; */
   /* padding: 25px; */
 }
- /* .img {
-  padding-top: 25px;
-  margin:10px auto;
-} */
-
 .topimg {
   padding-left: 40px;
   padding-bottom: 25px;
+  padding-top: 35px;
+  padding-right: 25px;
 }
-
 .navbar {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   background-color: white;
-  font-size: 14px;
+  font-size: 13px;
   font-family: sans-serif;
-  color: black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: justify;
 }
-
-.nav-link {
-  color: black;
+.margin-auto {
+  margin: auto;
 }
-
 .boston {
   height: 390px;
   width: 100%;
   margin: auto;
 }
-
 .extra-margin-top {
-  margin-top: 50px;
+  margin-top: 25px;
 }
-
+img.topimg:hover {
+  opacity: 0.7;
+}
 
 /************************
     main styles
@@ -52,13 +52,86 @@ body {
 .bg-red {
   height: 390px;
   overflow-y: scroll;
-  background-color: red;
-  padding: 25px;
+  overflow-x: hidden;
+  background-color: #91342f;
+  padding: 15px;
+  font-size: 12px;
+  color: white;
 }
-
-
-
+/*extramargintop has
+margin-bottom: 40px */
+.extra-margin-top-2 {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+/*extramargintop has
+margin-bottom: 40px */
+.extra-margin-top-3 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.incr-size {
+  font-size: 14px;
+  font-weight: bold;
+}
+.less-padding-r {
+  padding-right: 0px;
+}
+.less-padding-l {
+  padding-left: 0px;
+}
+.smaller-font-1 {
+  font-size: 14px;
+}
+.smaller-font-2 {
+  font-size: 10px;
+}
+.make-bold {
+  font-weight: bold;
+}
+.smaller-font-2 a {
+  color: #91342f;
+}
+.font-smaller {
+  font-size: 80%;
+  font-weight: bold;
+}
 
 /************************
     footer styles
 *************************/
+.lower-font {
+  font-size: 10px;
+}
+.no-border {
+  border-bottom: none;
+}
+.center {
+  text-align: center;
+  font-size: 11px;
+}
+.center a:hover {
+  color: #91342f;
+  text-decoration: none;
+}
+.color-grey a{
+  color: #c0c0c0;
+}
+.make-grey {
+  color: #c0c0c0;
+}
+/*tried to add my own class in nav, ul, li a, can't figure out how to make font black other than overriding bootstrap classes */
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color:#91342f;
+}
+/* again probably not the best way to override, gets a bit confusing with all the classes from bootstrap */
+.navbar-light .navbar-nav .hover-color:hover {
+  color: #c0c0c0;
+}
+
+.margin-auto:hover {
+  color: #c0c0c0;
+}

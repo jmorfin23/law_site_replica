@@ -1,0 +1,39 @@
+/**********************
+    Header styles
+***********************/
+
+
+
+
+/**********************
+    Main styles
+***********************/
+.bg-red-2 {
+  height: 600px;
+  padding: 10px;
+}
+.style li {
+  margin-bottom: 0px
+}
+.nested-style {
+  list-style-type: none;
+  padding-left: 20px;
+}
+.nested-style li {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.nested-style li a {
+  margin-bottom: 2px;
+}
+.nested-style li:hover {
+  color: white;
+  font-weight: bold;
+  font-size: 108%;
+  text-decoration: none;
+}
+
+
+/**********************
+    Footer styles
+***********************/

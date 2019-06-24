@@ -1,0 +1,47 @@
+/************************
+    Heading styles
+*********************/
+
+
+
+/*********************
+    Main styles
+*************************/
+.extra-margin-top-2 {
+  margin-top: 60px;
+}
+.bg-red-2 {
+  height: 300px;
+  padding: 10px;
+}
+#change-font a {
+  font-size: 11px;
+}
+.below-img-link {
+  font-size: 12px;
+}
+.low-font {
+  font-size: 11px;
+}
+/* + padding: 0px */
+.border-below {
+  border-bottom: 1px solid grey;
+  padding: 0px;
+  font-family:sans-serif;
+  font-weight: bold;
+}
+.padding-top {
+  padding-top: 15px;
+}
+.padding-top-2 {
+  padding-top: 15px;
+  padding-left: 0px;
+}
+.crazy-bold {
+  font-weight: bold;
+}
+
+
+/************************
+    Footer styles
+*************************/
